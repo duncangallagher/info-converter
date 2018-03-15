@@ -3,9 +3,39 @@
 
 <head>
     <title>Info Converter</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
+
+    <div class="container">
+        <h1>Fun Flight Recorder</h1>
+        <form>
+            <div class="field half">
+                <label for="station">Station</label>
+                <input type="text" id="station" />
+            </div>
+            <div class="field half last">
+                <label for="date">Date</label>
+                <input type="date" id="date" />
+            </div>
+            <div class="field tnb">
+                <label for="flight-number">Flight Number</label>
+                <input type="text" id="flight-number" />
+            </div>
+            <div class="field tnb">
+                <label for="msg">People Involved (Add names as needed)</label>
+                <input type="text" id="person1" />
+            </div>
+            <button type="button" class="w3-button w3-yellow" id="add-people-button">+</button>
+        </form>
+        <button class="w3-button w3-indigo" id="submit-button">Log Flight</button>
+        <button class="w3-button w3-red" id="get-record">Download Records</button>
+    </div>
 
 </body>
 
