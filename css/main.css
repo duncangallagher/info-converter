@@ -22,7 +22,7 @@ h1 {
 }
 
 .container {
-    margin: 16rem auto;
+    margin: 5rem auto;
     max-width: 700px;
 }
 
@@ -83,4 +83,15 @@ form .field textarea {
 
 #add-people-button {
     float: left;
+}
+
+.new-person-field {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    padding: .5rem 2rem 1.5rem;
+    font-size: 1.8rem;
+    border: 1px solid #BDBDBD;
+    border-top: 0;
+    color: #212121;
+    outline: 0;
 }
